@@ -1,52 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main>
-        <h1>Airtime Generator</h1>
-        <select name="" id="Network">
-            <option value="">choose Network Provider</option>
-            <option value="Mtn">Mtn</option>
-            <option value="Glo">Glo</option>
-            <option value="Airtel">Airtel</option>
-            <option value="9Mobile">9Mobile</option>
-        </select>
-        <br><br><br>
+      <h1>Airtime Generator</h1>
+      <select name="" id="Network">
+        <option value="">choose Network Provider</option>
+        <option value="mtn">Mtn</option>
+        <option value="glo">Glo</option>
+        <option value="airtel">Airtel</option>
+        <option value="9mobile">9Mobile</option>
+      </select>
+      <br /><br /><br />
 
-        <select name="" id="Amount">
-            <option value="">Choose airtime amount</option>
-            <option value="100">100</option>
-            <option value="200">200</option>
-            <option value="500">500</option>
-            <option value="1000">1000</option>
-        </select>
-        <br><br><br>
+      <select name="" id="Amount">
+        <option value="">Choose airtime amount</option>
+        <option value="100">100</option>
+        <option value="200">200</option>
+        <option value="500">500</option>
+        <option value="1000">1000</option>
+      </select>
+      <br /><br /><br />
 
+      <div class="box">
+        <p id="generate">Recharge pin appears here</p>
+      </div>
 
-        <div class="box">
-            <p id="generate">Recharge pin appears here</p>
-        </div>
+      <br />
 
-        <br>
+      <button onclick="submit()">Generate airtime</button>
 
-        <button onclick=submit()>Generate airtime</button>
+      <br /><br /><br /><br /><br />
 
-        <br><br><br><br><br>
-
-        <h1>Recharge airtime</h1>
-        <input type="text">
-        <button>Recharge</button>
+      <h1>Recharge airtime</h1>
+      <input id="code" type="text" />
+      <button onclick="recharge()">Recharge</button>
     </main>
-    
-
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

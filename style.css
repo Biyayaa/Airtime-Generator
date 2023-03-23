@@ -1,9 +1,9 @@
-.box{
+.box {
     border: 1px solid red;
     width: 200px;
     height: 50px;
 }
 
-p{
+p {
     font-weight: 600;
 }
