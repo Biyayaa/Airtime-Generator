@@ -1,6 +1,6 @@
 let network = document.getElementById("Network");
 let amount = document.getElementById("Amount");
-let rechargeCode = Math.floor(Math.random() * 100000000000);
+let rechargeCode = Math.floor(Math.random() * 10000000000000000);
 let rechargePin = document.getElementById("code");
 
 function submit() {
