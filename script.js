@@ -43,9 +43,9 @@ function recharge() {
   rechargePin.value.endsWith("#")) {
     alert("Recharge of " + network.value + " " + amount.value + " succesful!!");
   }
-  else if (rechargePin.value = " ") {
-    alert('Buy airtime first')
-  }
+  // else if (rechargePin.value = " ") {
+  //   alert('Buy airtime first')
+  // }
   else if (rechargeCode != rechargePin.value) {
     alert('Thief!!!!!')
   }
